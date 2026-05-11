@@ -411,8 +411,8 @@ export default function App() {
              </div>
 
              <div className="relative">
-                <div className="aspect-[4/3] rounded-[48px] overflow-hidden shadow-2xl relative z-10 border-8 border-white">
-                   <img src="https://i.postimg.cc/q73vjH34/518290302-1340392808094831-6167752757608485279-n.jpg" className="w-full h-full object-cover" />
+                <div className="aspect-auto min-h-[400px] bg-white rounded-[48px] overflow-hidden shadow-2xl relative z-10 border-8 border-white flex items-center justify-center">
+                   <img src="https://i.postimg.cc/q73vjH34/518290302-1340392808094831-6167752757608485279-n.jpg" className="w-full h-full object-contain" />
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-gold-500 text-white p-10 rounded-[32px] shadow-2xl z-20">
                    <div className="text-5xl font-serif font-bold mb-1">5.0</div>
@@ -512,11 +512,6 @@ export default function App() {
                   <div className="font-serif text-xl font-bold text-white tracking-widest">EDEN</div>
                   <div className="text-[10px] uppercase tracking-[0.3em] text-stone-500 font-bold">Gabinet Kosmetyczny</div>
                </div>
-            </div>
-
-            <div className="text-stone-500 text-sm flex gap-6">
-               <a href="#" className="hover:text-gold-500 transition-all font-medium">Polityka prywatności</a>
-               <a href="#" className="hover:text-gold-500 transition-all font-medium">Wizyta</a>
             </div>
 
             <div className="flex gap-4">
